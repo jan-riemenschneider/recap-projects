@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Page</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Profil.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+
+    <main>
+      <section id="profile-info">
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Profilbild"
+          class="profile-pic"
+        />
+        <h2>Max Doe</h2>
+      </section>
+
+      <section id="profile-details">
+        <h3>About me</h3>
+        <p>
+          Webentwickler mit Leidenschaft für moderne Web-Technologien und
+          innovative Lösungen.
+        </p>
+        <div id="counters">
+          <div class="counter">
+            <i class="material-icons">help_outline</i>
+            <span>12</span>
+          </div>
+          <div class="counter">
+            <i class="material-icons">bookmark</i>
+            <span>4</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="settings">
+        <h3>Settings</h3>
+        <div class="setting-item">
+          <label for="darkModeSwitch">Dark Mode</label>
+          <label class="switch">
+            <input type="checkbox" id="darkModeSwitch" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav role="navigation">
+        <a id="home" aria-label="Home" href="/Home Page/homePage.html">
+          <i class="material-icons">home</i>
+        </a>
+        <a
+          id="bookmark"
+          aria-label="Bookmark"
+          href="/Bookmarks Page/bookmarkPage.html"
+        >
+          <i class="material-icons">bookmark</i>
+        </a>
+        <a
+          id="person"
+          aria-label="Profil"
+          class="active"
+          href="/Profil Page/profilPage.html"
+        >
+          <i class="material-icons">person</i>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
