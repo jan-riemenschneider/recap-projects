@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profil Page</title>
+
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Profil.css" />
+
+    <link rel="stylesheet" href="/css/pages/profilPage.css" />
   </head>
 
   <body>
@@ -19,11 +21,11 @@
     <main>
       <section id="profile-info">
         <img
-          src="https://via.placeholder.com/150"
-          alt="Profilbild"
+          src="/css/pics/4653eebe.jpeg"
+          alt="Jan Riemenschneider"
           class="profile-pic"
         />
-        <h2>Max Doe</h2>
+        <h2>Jan Riemenschneider</h2>
       </section>
 
       <section id="profile-details">
@@ -58,23 +60,25 @@
 
     <footer>
       <nav role="navigation">
-        <a id="home" aria-label="Home" href="/Home Page/homePage.html">
-          <i class="material-icons">home</i>
+        <a id="home" aria-label="Home" href="/html/homepage.html">
+          <i class="material-icons" style="font-size: 45px">home</i>
         </a>
-        <a
-          id="bookmark"
-          aria-label="Bookmark"
-          href="/Bookmarks Page/bookmarkPage.html"
-        >
-          <i class="material-icons">bookmark</i>
+
+        <a id="bookmark" aria-label="Bookmark" href="/html/booksmarkPage.html">
+          <i class="material-icons" style="font-size: 45px">bookmark</i>
         </a>
+
+        <a id="form" aria-label="Form" href="/html/formPage.html">
+          <i class="material-icons" style="font-size: 45px">add_circle</i>
+        </a>
+
         <a
+          class="active"
           id="person"
           aria-label="Profil"
-          class="active"
-          href="/Profil Page/profilPage.html"
+          href="/html/profilePage.html"
         >
-          <i class="material-icons">person</i>
+          <i class="material-icons" style="font-size: 45px">person</i>
         </a>
       </nav>
     </footer>

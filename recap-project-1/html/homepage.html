@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/pages/homePage.css" />
+
+    <script src="/js/pages/homePage.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+
+    <main data-js="append">
+      <section>
+        <i
+          data-js="bookmarks"
+          class="material-icons"
+          id="booksmark2"
+          style="font-size: 45px"
+          >bookmark</i
+        >
+        <p id="question1">What property flips the axes in Flexbox?</p>
+        <button
+          class="button-answer"
+          data-js="buttonShowAnswer"
+          aria-labelledby="question1"
+        >
+          Show Answer
+        </button>
+        <div class="answer-container"></div>
+        <div class="hashtags">
+          <span>#html</span>
+          <span>#flexbox</span>
+          <span>#css</span>
+        </div>
+      </section>
+
+      <section>
+        <i
+          data-js="bookmarks"
+          class="material-icons"
+          id="booksmark2"
+          style="font-size: 45px"
+          >bookmark</i
+        >
+        <p id="question2">Lorem ipsum dolor sit amet?</p>
+        <button
+          class="button-answer"
+          data-js="buttonShowAnswer"
+          aria-labelledby="question2"
+        >
+          Show Answer
+        </button>
+        <div class="answer-container"></div>
+        <div class="hashtags">
+          <span>#html</span>
+          <span>#css</span>
+          <span>#layout</span>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer mit Navigation -->
+    <footer>
+      <nav role="navigation">
+        <a class="active" id="home" aria-label="Home" href="/html/homepage.html">
+          <i class="material-icons" style="font-size: 45px">home</i>
+        </a>
+
+        <a id="bookmark" aria-label="Bookmark" href="/html/booksmarkPage.html">
+          <i class="material-icons" style="font-size: 45px">bookmark</i>
+        </a>
+
+        <a id="form" aria-label="Form" href="/html/formPage.html">
+          <i class="material-icons" style="font-size: 45px">add_circle</i>
+          <!-- Das Icon für das Formular -->
+        </a>
+
+        <a id="person" aria-label="Profil" href="/html/profilPage.html">
+          <i class="material-icons" style="font-size: 45px">person</i>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>
